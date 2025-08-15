@@ -1,1 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday Surprise</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Heart Animation -->
+<div id="heart-container">
+    <div id="heart"></div>
+</div>
+
+<!-- Initial Message -->
+<div id="greeting-message">
+    <p id="message">Hello Queen, we were waiting for you...</p>
+</div>
+
+<!-- Question about the date -->
+<div id="question-container" class="hidden">
+    <p>Today is a special day. Do you know what's today?</p>
+    <button id="yes-button">Yes</button>
+    <button id="no-button">No</button>
+</div>
+
+<!-- Birthday Cake & Song -->
+<div id="cake-container" class="hidden">
+    <img id="birthday-cake" src="cake.png" alt="Birthday Cake" />
+    <audio id="happy-birthday-song" src="happy_birthday_song.mp3"></audio>
+</div>
+
+<!-- Trivia Question -->
+<div id="trivia-container" class="hidden">
+    <p>Do you know the person who gave you this gift? (Type the name)</p>
+    <input type="text" id="answer" placeholder="Enter the name..." />
+    <button id="submit-answer">Submit</button>
+    <p id="error-message" class="hidden">Try again!</p>
+</div>
+
+<!-- Final Message -->
+<div id="final-message" class="hidden">
+    <p>I LOVE YOU VERY MUCH 💖</p>
+    <div id="hearts"></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
+
 
